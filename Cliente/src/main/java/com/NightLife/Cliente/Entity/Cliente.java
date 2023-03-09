@@ -1,9 +1,9 @@
 package com.NightLife.Cliente.Entity;
 
-import javax.persistence.Entity;
+import jakarta.persistence.Entity;
 import javax.persistence.GeneratedValue;
-import javax.persistence.Id;
-import javax.persistence.Table;
+import jakarta.persistence.Id;
+import jakarta.persistence.Table;
 import java.util.Date;
 
 @Entity
