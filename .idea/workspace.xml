@@ -5,9 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="39840740-5b28-48ff-8ef0-7d835be0b9d7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Cliente/src/main/java/com/NightLife/Cliente/repositories/ClienteRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cliente/src/main/java/com/NightLife/Cliente/services/ClienteService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cliente/src/main/java/com/NightLife/Cliente/services/implementations/ClienteServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Cliente/src/main/java/com/NightLife/Cliente/controllers/ClienteGetController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Cliente/src/main/java/com/NightLife/Cliente/controllers/ClienteGetController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
