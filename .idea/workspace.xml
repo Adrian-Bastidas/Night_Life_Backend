@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="39840740-5b28-48ff-8ef0-7d835be0b9d7" name="Changes" comment="" />
+    <list default="true" id="39840740-5b28-48ff-8ef0-7d835be0b9d7" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Cliente/src/main/java/com/NightLife/Cliente/Entity/Cliente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cliente/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Cliente/pom.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -32,7 +36,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/user/Desktop/PUCE/Desarrollo/Back/Night_Life_Backend"
+    "last_opened_file_path": "C:/Users/user/Desktop/PUCE/Desarrollo/Back/Night_Life_Backend/Cliente"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
