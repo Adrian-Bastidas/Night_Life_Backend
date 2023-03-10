@@ -5,18 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="39840740-5b28-48ff-8ef0-7d835be0b9d7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Local/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Local/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Local/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Local/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Local/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Local/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Local/src/main/java/com/NightLife/Local/LocalApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Local/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Local/src/test/java/com/NightLife/Local/LocalApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Cliente/src/main/java/com/NightLife/Cliente/controllers/ClientePostController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Local/src/main/java/com/NightLife/Local/Entity/Empleados.java" beforeDir="false" afterPath="$PROJECT_DIR$/Local/src/main/java/com/NightLife/Local/Entity/Empleados.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Local/src/main/java/com/NightLife/Local/Entity/Local.java" beforeDir="false" afterPath="$PROJECT_DIR$/Local/src/main/java/com/NightLife/Local/Entity/Local.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cliente/src/main/java/com/NightLife/Cliente/services/ClienteService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Cliente/src/main/java/com/NightLife/Cliente/services/ClienteService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cliente/src/main/java/com/NightLife/Cliente/services/implementations/ClienteServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/Cliente/src/main/java/com/NightLife/Cliente/services/implementations/ClienteServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +41,7 @@
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/user/Desktop/PUCE/Desarrollo/Back/Night_Life_Backend/Local"
+    "last_opened_file_path": "C:/Users/user/Desktop/PUCE/Desarrollo/Back/Night_Life_Backend"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
