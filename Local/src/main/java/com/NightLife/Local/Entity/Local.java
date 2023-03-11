@@ -9,4 +9,12 @@ import jakarta.persistence.Table;
 public class Local {
     @Id
     private Integer locId;
+    private String locNombre;
+    private String locHoraApertura;
+    private String locHoraCierre;
+    private String locDescripcion;
+    private String locCoordenadas;
+    private Double locPrecioFicha;
+    private Double locPrecioEntrada;
+    private Double locPrecioPrivado;
 }
