@@ -16,7 +16,7 @@ public class ClienteGetController {
     @Autowired
     private ClienteService servicio;
 
-    @GetMapping("/")
+    @GetMapping("/listarClientes")
     public ResponseEntity<List<Cliente>> listar() {
         return ResponseEntity.ok(servicio.listar());
     }
