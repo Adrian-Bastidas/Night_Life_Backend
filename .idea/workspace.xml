@@ -5,20 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="39840740-5b28-48ff-8ef0-7d835be0b9d7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Local/src/main/java/com/NightLife/Local/controllers/localGetController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Local/src/main/java/com/NightLife/Local/controllers/localQueryController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Local/src/main/java/com/NightLife/Local/repositories/localRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Local/src/main/java/com/NightLife/Local/services/implementations/LocalServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Local/src/main/java/com/NightLife/Local/services/localServices.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cliente/src/main/java/com/NightLife/Cliente/controllers/ClienteGetController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Cliente/src/main/java/com/NightLife/Cliente/controllers/ClienteGetController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cliente/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Cliente/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Local/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Local/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Local/src/main/java/com/NightLife/Local/Entity/Empleados.java" beforeDir="false" afterPath="$PROJECT_DIR$/Local/src/main/java/com/NightLife/Local/Entity/Empleados.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Local/src/main/java/com/NightLife/Local/Entity/Local.java" beforeDir="false" afterPath="$PROJECT_DIR$/Local/src/main/java/com/NightLife/Local/Entity/Local.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Local/src/main/java/com/NightLife/Local/Entity/Productos.java" beforeDir="false" afterPath="$PROJECT_DIR$/Local/src/main/java/com/NightLife/Local/Entity/Productos.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Local/src/main/java/com/NightLife/Local/LocalApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/Local/src/main/java/com/NightLife/Local/LocalApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Local/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Local/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
