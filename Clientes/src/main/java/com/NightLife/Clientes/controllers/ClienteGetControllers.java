@@ -1,7 +1,7 @@
-package com.NightLife.Cliente.controllers;
+package com.NightLife.Clientes.controllers;
 
-import com.NightLife.Cliente.Entity.Cliente;
-import com.NightLife.Cliente.services.ClienteService;
+import com.NightLife.Clientes.Entity.Cliente;
+import com.NightLife.Clientes.services.ClienteService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
@@ -12,10 +12,9 @@ import java.util.Optional;
 @RestController
 @RequestMapping("/get")
 @CrossOrigin(value="*")
-public class ClienteGetController {
+public class ClienteGetControllers {
     @Autowired
     private ClienteService servicio;
-
     @GetMapping("/listarClientes")
     public ResponseEntity<List<Cliente>> listar() {
         return ResponseEntity.ok(servicio.listar());

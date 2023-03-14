@@ -1,13 +1,12 @@
-package com.NightLife.Cliente.Entity;
+package com.NightLife.Clientes.Entity;
 
-import jakarta.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import jakarta.persistence.Id;
-import jakarta.persistence.Table;
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.Table;
 import java.util.Date;
 
 @Entity
-@Table(name="Client")
+@Table(name="client")
 public class Cliente {
     @Id
     private Integer cliCedula;
