@@ -1,6 +1,6 @@
-package com.NightLife.Local.Entity;
+package com.NightLife.Locales.Entity;
 
-import jakarta.persistence.*;
+import javax.persistence.*;
 
 @Entity
 @Table(name="Local")

@@ -1,5 +1,6 @@
-package com.NightLife.Local.services;
-import com.NightLife.Local.Entity.Local;
+package com.NightLife.Locales.services;
+
+import com.NightLife.Locales.Entity.Local;
 
 import java.util.List;
 import java.util.Optional;

@@ -1,8 +1,8 @@
-package com.NightLife.Local.services.implementations;
+package com.NightLife.Locales.services.implementations;
 
-import com.NightLife.Local.Entity.Local;
-import com.NightLife.Local.repositories.localRepository;
-import com.NightLife.Local.services.localServices;
+import com.NightLife.Locales.Entity.Local;
+import com.NightLife.Locales.repositories.localRepository;
+import com.NightLife.Locales.services.localServices;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -14,7 +14,7 @@ public class LocalServiceImpl implements localServices {
     private localRepository repository;
     @Override
     public List<Local> listar() {
-        return (List<Local>) repository.findAll();
+        return repository.findAll();
     }
 
     @Override

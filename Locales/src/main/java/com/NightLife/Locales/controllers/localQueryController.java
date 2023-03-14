@@ -1,7 +1,7 @@
-package com.NightLife.Local.controllers;
+package com.NightLife.Locales.controllers;
 
-import com.NightLife.Local.Entity.Local;
-import com.NightLife.Local.services.localServices;
+import com.NightLife.Locales.Entity.Local;
+import com.NightLife.Locales.services.localServices;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
