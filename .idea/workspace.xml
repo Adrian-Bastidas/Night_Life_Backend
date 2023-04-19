@@ -5,7 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="39840740-5b28-48ff-8ef0-7d835be0b9d7" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Locales/src/main/java/com/NightLife/Locales/repositories/LocalesRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Clientes/src/main/java/com/NightLife/Clientes/Entity/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/Clientes/src/main/java/com/NightLife/Clientes/Entity/Cliente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Clientes/src/main/java/com/NightLife/Clientes/repositories/JavaRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/Clientes/src/main/java/com/NightLife/Clientes/repositories/ClienteRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Locales/src/main/java/com/NightLife/Locales/controllers/localQueryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Locales/src/main/java/com/NightLife/Locales/controllers/localQueryController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Locales/src/main/java/com/NightLife/Locales/repositories/localRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/Ordenes/src/main/java/respositories/localRepository.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +43,7 @@
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/erick/OneDrive/Documents/GitHub/Night_Life_Backend/EurekaServer",
+    "last_opened_file_path": "C:/Users/erick/OneDrive/Documents/GitHub/Night_Life_Backend/Locales",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",

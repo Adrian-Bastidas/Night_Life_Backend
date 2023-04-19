@@ -1,5 +1,4 @@
 package com.NightLife.Clientes.Entity;
-
 import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.Table;
@@ -12,9 +11,10 @@ public class Cliente {
     private Integer cliCedula;
     private String cliNombre;
     private String cliApellido;
-    private Date cliFechaNacimiento;
+    private String cliFechaNacimiento;
     private String cliAlias;
-    private Integer cliTelefono;
+    private String cliTelefono;
+
 
     public Integer getCliCedula() {
         return cliCedula;
@@ -40,11 +40,11 @@ public class Cliente {
         this.cliApellido = cliApellido;
     }
 
-    public Date getCliFechaNacimiento() {
+    public String getCliFechaNacimiento() {
         return cliFechaNacimiento;
     }
 
-    public void setCliFechaNacimiento(Date cliFechaNacimiento) {
+    public void setCliFechaNacimiento(String cliFechaNacimiento) {
         this.cliFechaNacimiento = cliFechaNacimiento;
     }
 
@@ -56,11 +56,11 @@ public class Cliente {
         this.cliAlias = cliAlias;
     }
 
-    public Integer getCliTelefono() {
+    public String getCliTelefono() {
         return cliTelefono;
     }
 
-    public void setCliTelefono(Integer cliTelefono) {
+    public void setCliTelefono(String cliTelefono) {
         this.cliTelefono = cliTelefono;
     }
 }

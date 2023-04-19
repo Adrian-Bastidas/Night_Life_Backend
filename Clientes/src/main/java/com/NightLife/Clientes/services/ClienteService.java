@@ -8,4 +8,5 @@ public interface ClienteService{
     List<Cliente> listar();
     Cliente guardar(Cliente cliente);
     Optional<Cliente> porId (Integer id);
+    void deletebyId (Integer id);
 }

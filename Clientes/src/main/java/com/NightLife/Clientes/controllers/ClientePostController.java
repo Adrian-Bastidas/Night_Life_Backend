@@ -32,4 +32,9 @@ public class ClientePostController {
         else
             return ResponseEntity.notFound().build();
     }
+    @DeleteMapping ("/delete/{id}")
+    public  ResponseEntity<?> deleteUser (@PathVariable int id){
+        this.servicio.deletebyId(id);
+        return ResponseEntity.ok(Boolean.TRUE);
+    }
 }
