@@ -6,13 +6,69 @@ import java.util.Date;
 @Entity
 @Table(name="Empleados")
 public class Empleados {
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private String empNombre;
-    private Date empFechaNacimiento;
+    private String empFechaNacimiento;
+    @Id
     private Integer empCedula;
     private String empFoto;
     private String empAlias;
-    private Time empHoraInicio;
-    private Time empHoraFin;
+    private String empHoraInicio;
+    private String empHoraFin;
+
+    public String getEmpNombre() {
+        return empNombre;
+    }
+
+    public void setEmpNombre(String empNombre) {
+        this.empNombre = empNombre;
+    }
+
+
+    public String getEmpFechaNacimiento() {
+        return empFechaNacimiento;
+    }
+
+    public void setEmpFechaNacimiento(String empFechaNacimiento) {
+        this.empFechaNacimiento = empFechaNacimiento;
+    }
+
+    public Integer getEmpCedula() {
+        return empCedula;
+    }
+
+    public void setEmpCedula(Integer empCedula) {
+        this.empCedula = empCedula;
+    }
+
+    public String getEmpFoto() {
+        return empFoto;
+    }
+
+    public void setEmpFoto(String empFoto) {
+        this.empFoto = empFoto;
+    }
+
+    public String getEmpAlias() {
+        return empAlias;
+    }
+
+    public void setEmpAlias(String empAlias) {
+        this.empAlias = empAlias;
+    }
+
+    public String getEmpHoraInicio() {
+        return empHoraInicio;
+    }
+
+    public void setEmpHoraInicio(String empHoraInicio) {
+        this.empHoraInicio = empHoraInicio;
+    }
+
+    public String getEmpHoraFin() {
+        return empHoraFin;
+    }
+
+    public void setEmpHoraFin(String empHoraFin) {
+        this.empHoraFin = empHoraFin;
+    }
 }

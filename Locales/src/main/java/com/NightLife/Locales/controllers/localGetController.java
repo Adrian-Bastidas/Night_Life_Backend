@@ -10,7 +10,7 @@ import java.util.List;
 import java.util.Optional;
 
 @RestController
-@RequestMapping("/get")
+@RequestMapping("/getLocal")
 @CrossOrigin(value="*")
 public class localGetController {
     @Autowired
@@ -26,5 +26,14 @@ public class localGetController {
         else{
             return ResponseEntity.notFound().build();
         }
+
+    }
+    @GetMapping("/{id}")
+    public ResponseEntity<Local> porId(@PathVariable Integer id) {
+        Optional<Local> o = services.porId(id);
+        if (o.isPresent()){
+            return  ResponseEntity.ok(o.get());
+        }
+        return ResponseEntity.notFound().build();
     }
 }

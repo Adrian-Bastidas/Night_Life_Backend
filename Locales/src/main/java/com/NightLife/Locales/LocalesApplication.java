@@ -12,4 +12,6 @@ public class LocalesApplication {
 		SpringApplication.run(LocalesApplication.class, args);
 	}
 
+
+
 }

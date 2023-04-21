@@ -20,7 +20,6 @@ public class ClienteGetControllers {
         return ResponseEntity.ok(servicio.listar());
     }
 
-
     @GetMapping("/{id}")
     public ResponseEntity<Cliente> porId(@PathVariable Integer id) {
         Optional<Cliente> o = servicio.porId(id);

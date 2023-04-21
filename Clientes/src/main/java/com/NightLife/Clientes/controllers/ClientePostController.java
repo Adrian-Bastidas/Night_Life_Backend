@@ -21,6 +21,7 @@ public class ClientePostController {
         return ResponseEntity.status(HttpStatus.CREATED).body(clienteDB);
     }
     @PutMapping("/{id}")
+
     public ResponseEntity<?> editar (@RequestBody Cliente cliente, @RequestParam Integer id){
         Optional<Cliente> o = servicio.porId(id);
         if(o.isPresent()){
