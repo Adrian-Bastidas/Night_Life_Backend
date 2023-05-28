@@ -11,4 +11,5 @@ public interface productoServices {
     Productos guardarProducto(Productos productos);
     Optional<Productos> porIdproducto (Integer id);
     void deletebyIdProducto (Integer id);
+    List<Productos> listarPorLocal(Integer Local);
 }

@@ -28,5 +28,7 @@ public class empleadosGetController {
         }
         return ResponseEntity.notFound().build();
     }
+    @GetMapping("/listarEmpleados/Local/{Local}")
+    public ResponseEntity<List<Empleados>> listarEmpleadosPorLocal(@PathVariable Integer Local){ return ResponseEntity.ok(services.listarPorLocal(Local));}
 }
 

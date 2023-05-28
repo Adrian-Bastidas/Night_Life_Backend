@@ -30,4 +30,6 @@ public class productoGetController {
         }
         return ResponseEntity.notFound().build();
     }
+    @GetMapping("/listarProductos/Local/{Local}")
+    public ResponseEntity<List<Productos>> listarProductoPorLocal(@PathVariable Integer Local){ return ResponseEntity.ok(services.listarPorLocal(Local));}
 }

@@ -12,6 +12,7 @@ public class Productos {
     private Double prodPrecioCompra;
     private Double prodPrecioVenta;
     private String prodDescripcion;
+    private Integer Local;
 
     public Integer getProdId() {
         return prodId;
@@ -51,5 +52,13 @@ public class Productos {
 
     public void setProdDescripcion(String prodDescripcion) {
         this.prodDescripcion = prodDescripcion;
+    }
+
+    public Integer getLocal() {
+        return Local;
+    }
+
+    public void setLocal(Integer local) {
+        Local = local;
     }
 }

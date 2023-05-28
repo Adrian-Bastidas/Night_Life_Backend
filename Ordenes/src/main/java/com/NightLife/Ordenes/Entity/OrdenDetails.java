@@ -11,6 +11,7 @@ public class OrdenDetails {
     private String detalleNombre;
     private Integer detalleCantidad;
     private Double detallePrecio;
+    private Integer Orden;
 
     public Integer getDetalleId() {
         return detalleId;
@@ -42,5 +43,13 @@ public class OrdenDetails {
 
     public void setDetallePrecio(Double detallePrecio) {
         this.detallePrecio = detallePrecio;
+    }
+
+    public Integer getOrden() {
+        return Orden;
+    }
+
+    public void setOrden(Integer orden) {
+        Orden = orden;
     }
 }

@@ -14,6 +14,7 @@ public class Empleados {
     private String empAlias;
     private String empHoraInicio;
     private String empHoraFin;
+    private Integer Local;
 
     public String getEmpNombre() {
         return empNombre;
@@ -70,5 +71,13 @@ public class Empleados {
 
     public void setEmpHoraFin(String empHoraFin) {
         this.empHoraFin = empHoraFin;
+    }
+
+    public Integer getLocal() {
+        return Local;
+    }
+
+    public void setLocal(Integer local) {
+        Local = local;
     }
 }

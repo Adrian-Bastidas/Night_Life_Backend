@@ -34,4 +34,9 @@ public class EmpleadosServicelmpl implements empleadosServices {
     public void deletebyIdem(Integer id) {
         repository.deleteById(id);
     }
+
+    @Override
+    public List<Empleados> listarPorLocal(Integer Local) {
+        return repository.findByLocal(Local);
+    }
 }

@@ -1,7 +1,9 @@
 package com.NightLife.Ordenes.Entity;
 
 import javax.persistence.*;
+import java.util.ArrayList;
 import java.util.Date;
+import java.util.List;
 @Entity
 @Table(name="Orden")
 public class Orden {
@@ -12,6 +14,8 @@ public class Orden {
     private Integer ordLocId;
     private String ordSubtotal;
     private String ordTotal;
+    @OneToMany(mappedBy = "Orden",fetch = FetchType.LAZY,cascade = CascadeType.ALL)
+    private List<OrdenDetails> Detalle = new ArrayList<>();
 
     public Integer getOrdId() {
         return ordId;
@@ -51,5 +55,13 @@ public class Orden {
 
     public void setOrdTotal(String ordTotal) {
         this.ordTotal = ordTotal;
+    }
+
+    public List<OrdenDetails> getDetalle() {
+        return Detalle;
+    }
+
+    public void setDetalle(List<OrdenDetails> detalle) {
+        Detalle = detalle;
     }
 }

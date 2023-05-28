@@ -32,4 +32,9 @@ public class ProductosServiceImpl implements productoServices {
     public void deletebyIdProducto(Integer id) {
 
     }
+
+    @Override
+    public List<Productos> listarPorLocal(Integer Local) {
+        return repository.findByLocal(Local);
+    }
 }

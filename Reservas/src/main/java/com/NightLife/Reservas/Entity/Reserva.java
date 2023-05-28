@@ -17,6 +17,7 @@ public class Reserva {
     private Integer resLocal;
     private String resFecha;
     private Integer resCliCedula;
+    private String estado;
 
     public Integer getResId() {
         return resId;
@@ -88,5 +89,13 @@ public class Reserva {
 
     public void setResCliCedula(Integer resCliCedula) {
         this.resCliCedula = resCliCedula;
+    }
+
+    public String getEstado() {
+        return estado;
+    }
+
+    public void setEstado(String estado) {
+        this.estado = estado;
     }
 }
