@@ -9,6 +9,6 @@ import java.util.List;
 
 @Repository
 public interface productoRepository extends JpaRepository<Productos, Integer> {
-    @Query(value = "SELECT * FROM persona WHERE Local = ?1", nativeQuery = true)
+    @Query(value = "SELECT * FROM Productos WHERE Local = ?1", nativeQuery = true)
     List<Productos> findByLocal(Integer Local);
 }
