@@ -22,7 +22,7 @@ public class empleadosQueryController {
         return ResponseEntity.status(HttpStatus.CREATED).body(localDB);
     }
     @PutMapping("/{id}")
-    public ResponseEntity<?> editar (@RequestBody Empleados empleados, @RequestParam Integer id){
+    public ResponseEntity<?> editar (@RequestBody Empleados empleados, @PathVariable Integer id){
         Optional<Empleados> o = services.porId(id);
         if(o.isPresent()){
             Empleados empleadosDB =o.get();

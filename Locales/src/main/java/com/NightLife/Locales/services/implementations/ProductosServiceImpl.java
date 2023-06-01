@@ -30,7 +30,7 @@ public class ProductosServiceImpl implements productoServices {
     }
     @Override
     public void deletebyIdProducto(Integer id) {
-
+        repository.deleteById(id);
     }
 
     @Override
